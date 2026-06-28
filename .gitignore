@@ -1,0 +1,19 @@
+# Secrets and Local Environment Variables
+# This is the most critical line for your 12-Factor exercise!
+.env
+
+# Python Virtual Environments
+# (You shouldn't push the actual environment, just the requirements.txt)
+venv/
+.venv/
+env/
+
+# Python Cache Files
+# (These are auto-generated and specific to your machine)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS generated files
+.DS_Store
